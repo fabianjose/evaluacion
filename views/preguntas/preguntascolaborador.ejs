@@ -1,0 +1,26 @@
+<%- include('../partials/header') %>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">Preguntas</h1>
+          <form method="POST" action="/guardarRespuestaAsesor">
+            <% questions.forEach(function(question) { %>
+              <div class="mb-3">
+                <label for="<%= question.ID %>" class="form-label"><%= question.Pregunta %></label>
+                <input type="number" id="<%= question.ID %>" name="<%= question.ID %>" class="form-control" min="1" max="5" value="1" required>
+              </div>
+            <% }); %>
+            <div>
+              <button type="submit" class="btn btn-primary">Enviar respuestas</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('../partials/footer') %>

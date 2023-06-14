@@ -4,6 +4,8 @@ const app = express();
 const userViews = require('./views/user_views')
 const userRoutes = require('./routes/user_routes')
 const globalRoutes = require('./routes/global_routes')
+const preguntasRoutes = require('./routes/preguntas_routes')
+const respuestasRoutes =require('./routes/respustas_routes')
 //definimos un puerto
 const port = 3000
 // Gestion de log
@@ -28,6 +30,8 @@ app.set('view engine','ejs');
 // aca usamos las constantes que conrtienen las rutas
 app.use(globalRoutes)
 app.use(userRoutes)
+app.use(preguntasRoutes)
+app.use(respuestasRoutes)
 
 
 

@@ -33,11 +33,12 @@ controller.register = (req, res)=>{
 // controlador que controla el registro de usuarios
 controller.postregister = async (req, res)=>{
 	const email = req.body.email;
-	//const name = req.body.name;
-    //const rol = req.body.rol;
+	const nombre = req.body.nombre;
+    const rol = req.body.rol;
 	const password = req.body.password;
 	let passwordHash = await bcrypt.hash(password, 8);
 
+console.log(req.body);
 
 
 
@@ -45,10 +46,9 @@ controller.postregister = async (req, res)=>{
 
 
 
-
-	connection.query('INSERT INTO users SET ?',{email:email,  password:passwordHash}, async (error, results)=>{
+	connection.query('INSERT INTO users SET ?',{email:email,  password:passwordHash, nombre:nombre, rol:rol}, async (error, results)=>{
         if(error){
-			
+			console.log(error);
               		
 			console.log('user existente');
 			logger.info( new Date().toLocaleString() +' :  ' + 'visitante no pudo resgistrarse ya que el usuario agregado ya existe ')

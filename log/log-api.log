@@ -299,3 +299,153 @@ info: 6/13/2023, 12:38:43 PM :   Actualizar la contraseña en la base de datos p
 info: 6/13/2023, 12:38:43 PM :   :  visitante accedio al login
 info: 6/13/2023, 12:38:51 PM :  visitante logro de logearse con el usuario  fabian@remotepcsolutions.com 
 info: 6/13/2023, 12:39:18 PM :  el usuario se ha deslogeado  fabian@remotepcsolutions.com 
+info: 6/14/2023, 2:41:53 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 2:41:53 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 2:42:01 PM :   :  visitante accedio al login
+info: 6/14/2023, 2:42:04 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 2:42:05 PM :   :  visitante accedio al login
+info: 6/14/2023, 2:42:09 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 2:42:10 PM :   :  visitante accedio al login
+info: 6/14/2023, 2:42:16 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 2:42:17 PM :   :  visitante accedio al login
+info: 6/14/2023, 2:42:25 PM :  visitante trato de logearse con el usuario  fabian@remotepcsolutions.com pero ha fallado 
+info: 6/14/2023, 2:42:26 PM :   :  visitante accedio al login
+info: 6/14/2023, 2:42:30 PM :  visitante trato de logearse con el usuario  fabian@remotepcsolutions.com pero ha fallado 
+info: 6/14/2023, 2:42:31 PM :   :  visitante accedio al login
+info: 6/14/2023, 3:58:07 PM :   :  visitante accedio al login
+info: 6/14/2023, 3:58:10 PM :  visitante accedio al registro
+info: 6/14/2023, 4:18:14 PM :  visitante accedio al registro
+info: 6/14/2023, 4:18:14 PM :  visitante accedio al registro
+info: 6/14/2023, 4:19:40 PM :  visitante accedio al registro
+info: 6/14/2023, 4:19:44 PM :  visitante accedio al registro
+info: 6/14/2023, 4:20:47 PM :  visitante accedio al registro
+info: 6/14/2023, 4:20:48 PM :  visitante accedio al registro
+info: 6/14/2023, 4:20:56 PM :  visitante accedio al registro
+info: 6/14/2023, 4:21:44 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:23:11 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:23:13 PM :  visitante accedio al registro
+info: 6/14/2023, 4:25:37 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:25:37 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:25:38 PM :  visitante accedio al registro
+info: 6/14/2023, 4:25:50 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:28:56 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:28:56 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:29:05 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:30:28 PM :  visitante accedio al registro
+info: 6/14/2023, 4:30:35 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:30:39 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 4:30:40 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:30:44 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 4:30:45 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:30:49 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 4:30:50 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:30:54 PM :  visitante trato de logearse con el usuario  espejofabian@gmail.com pero ha fallado 
+info: 6/14/2023, 4:30:55 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:30:59 PM :  visitante trato de logearse con el usuario  fabian@remotepcsolutions.com pero ha fallado 
+info: 6/14/2023, 4:31:00 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:31:04 PM :  visitante trato de logearse con el usuario  fabian@remotepcsolutions.com pero ha fallado 
+info: 6/14/2023, 4:31:05 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:31:14 PM :  visitante trato de logearse con el usuario  fabian@remotepcsolutions.com pero ha fallado 
+info: 6/14/2023, 4:31:15 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:32:13 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:32:18 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:32:18 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:32:25 PM :  visitante accedio al registro
+info: 6/14/2023, 4:32:31 PM :  visitante se registro de manera exitosa para el usuario : espejofabian@gmail.com
+info: 6/14/2023, 4:32:35 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:32:37 PM :  visitante logro de logearse con el usuario  espejofabian@gmail.com 
+info: 6/14/2023, 4:32:40 PM :  el usuario se ha deslogeado  espejofabian@gmail.com 
+info: 6/14/2023, 4:33:45 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:33:45 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:34:08 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:34:08 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:34:23 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:34:23 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:34:28 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:34:29 PM :  visitante accedio al registro
+info: 6/14/2023, 4:34:38 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:37:01 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:37:12 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:37:12 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:37:14 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:37:18 PM :  visitante accedio al registro
+info: 6/14/2023, 4:38:07 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:38:24 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:38:24 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:38:33 PM :  visitante no pudo resgistrarse ya que el usuario agregado ya existe 
+info: 6/14/2023, 4:39:22 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 4:39:22 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 4:39:29 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:39:31 PM :  visitante accedio al registro
+info: 6/14/2023, 4:39:55 PM :  visitante se registro de manera exitosa para el usuario : fabian@remotepcsolutions.com
+info: 6/14/2023, 4:40:56 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:40:58 PM :  visitante accedio al registro
+info: 6/14/2023, 4:41:06 PM :  visitante se registro de manera exitosa para el usuario : fabian@remotepcsolutions.com
+info: 6/14/2023, 4:42:38 PM :   :  visitante accedio al login
+info: 6/14/2023, 4:42:39 PM :  visitante accedio al registro
+info: 6/14/2023, 4:42:58 PM :  visitante accedio al registro
+info: 6/14/2023, 4:43:02 PM :  visitante accedio al registro
+info: 6/14/2023, 4:43:39 PM :  visitante accedio al registro
+info: 6/14/2023, 4:43:40 PM :  visitante accedio al registro
+info: 6/14/2023, 4:43:57 PM :  visitante accedio al registro
+info: 6/14/2023, 4:44:06 PM :  visitante accedio al registro
+info: 6/14/2023, 4:45:18 PM :  visitante accedio al registro
+info: 6/14/2023, 5:04:46 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:04:46 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:07:00 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:07:00 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:08:41 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:08:41 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:10:27 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:10:27 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:13:25 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:13:25 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:13:35 PM :  visitante accedio al registro
+info: 6/14/2023, 5:13:57 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:13:57 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:14:03 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:14:03 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:14:28 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:14:28 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:14:29 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:14:29 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:14:42 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:14:42 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:17:21 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:17:21 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:19:20 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:19:20 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:19:27 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:19:27 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:19:47 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:19:47 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:20:28 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:20:28 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:20:35 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:20:35 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:20:40 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:20:40 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:20:45 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:20:45 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:20:53 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:20:53 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:20:55 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:20:55 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:44:17 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:44:17 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:44:31 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:44:31 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:44:39 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:44:39 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:48:42 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:48:42 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:49:00 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:49:00 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:49:20 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:49:20 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:49:34 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:49:34 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:52:21 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:52:21 PM :  ¡Conectado a la Base de Datos!
+info: 6/14/2023, 5:53:00 PM :  Servidor escuchando en el puerto:  3000
+info: 6/14/2023, 5:53:00 PM :  ¡Conectado a la Base de Datos!
