@@ -1,0 +1,6 @@
+Proyecto base nodejs express
+-contiene
+	login
+	registro
+	log de actividades
+	

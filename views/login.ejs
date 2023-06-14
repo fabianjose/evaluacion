@@ -1,0 +1,52 @@
+<%- include('./partials/header') %>
+   
+
+   
+	<div class="login-form">
+		<h1>Login</h1>
+		<form action="auth" method="POST">
+			<input type="text" name="email" placeholder="Email" autofocus required>
+			<input type="password" name="password" placeholder="Password" required>
+			<input type="submit" class="btn-login" value="Login">
+		</form>
+		<a href="register" class="btn-register">Register</a>
+		<a href="recuperacion" class="btn-register">forgot-password</a>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<% if (typeof alert != "undefined")  { %>
+	<script>
+		Swal.fire({
+			title:'<%= alertTitle %>',
+			text:'<%= alertMessage %>',
+			icon:'<%= alertIcon %>',
+			showConfirmButton: <%= showConfirmButton %>,
+			timer: <%= timer %>
+		}).then(()=>{
+			window.location='/<%= ruta %>'
+		})
+	</script>
+	<% } %>
+
+
+		
+    
+		
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+   <% if (typeof alert != "undefined")  { %>
+    <script>
+    Swal.fire({
+      title:'<%= alertTitle %>',
+      text:'<%= alertMessage %>',
+      icon:'<%= alertIcon %>',
+      showConfirmButton: <%= showConfirmButton %>,
+      timer: <%= timer %>
+    }).then(()=>{
+      window.location='/<%= ruta %>'
+    })
+    </script>
+  <% } %>
+	</div>
+
+ <%- include('./partials/footer') %>
