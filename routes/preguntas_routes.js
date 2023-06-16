@@ -3,10 +3,11 @@ const router = express.Router()
 
 const preguntasController = require('../controller/preguntas_controller')
 
+const authMiddleware = require('../middleware/authMiddleware')
 
 
 
-router.get('/preguntas',preguntasController.mostrarPreguntas)
+router.get('/preguntas',authMiddleware,preguntasController.mostrarPreguntas)
 
 
 

@@ -4,7 +4,9 @@
 
 <% if (login) { %>                
     <h1>Usuario conectado: <strong><%= email %></strong></h1>                        
-    <a href="logout" class="a-logout">Logout</a>
+    <a href="logout" class="a-logout">Logout</a><br>
+    <a href="preguntas" class="a-logout">preguntas</a>
+
 <%} else { %>
     <h1><strong><%= name %></strong></h1>   
     <a href="login" class="a-login">Ir a Login</a>
