@@ -84,5 +84,40 @@ controller.guardarRespuestaAsesor = (req, res) => {
     ruta: ''
   }) // Puedes redirigir a otra página o enviar una respuesta de éxito, según tus necesidades
 };
-
+controller.mostrarRespuestas = (req, res) => {
+  const enviado = req.session.enviado;
+  
+  // Realiza la consulta a la base de datos para obtener las respuestas con la información relacionada
+  const query = `SELECT
+    u.nombre AS Usuario,
+    p.Pregunta,
+    r.ValorRespuesta AS Respuesta,
+    c.Categoria,
+    ca.Campana
+  FROM
+    users u
+  LEFT JOIN
+    respuestas r ON u.id = r.UsuarioID
+  LEFT JOIN
+    preguntas p ON r.PreguntaID = p.ID
+  LEFT JOIN
+    categorias c ON p.CategoriaID = c.ID
+  LEFT JOIN
+    campana ca ON u.CampanaID = ca.ID`;
+  
+  db.query(query, (err, result) => {
+    if (err) {
+      // Manejo del error
+      console.log(err);
+      return res.status(500).send('Error en la consulta de respuestas');
+    }
+    console.log(
+      result
+    );
+    // Obtén las respuestas del resultado de la consulta
+    const respuestas = JSON.parse(JSON.stringify(result));
+    // Renderiza la vista de respuestas y pasa las respuestas como datos
+    res.render('respuestas/respuestas', { respuestas });
+  });
+};
 module.exports = controller;

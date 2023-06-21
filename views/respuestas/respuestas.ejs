@@ -1,0 +1,116 @@
+<%- include('../partials/header') %>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+      // Obtener los datos de la consulta desde el servidor
+
+      
+      var respuestas = JSON.parse('<%- JSON.stringify(respuestas) %>');
+      console.log(respuestas);
+      // Función para filtrar los resultados
+      function filtrarResultados() {
+  var nombre = $('#nombre').val()?.toLowerCase();
+  var categoria = $('#categoria').val()?.toLowerCase();
+  var campana = $('#campana').val()?.toLowerCase();
+
+  var resultadosFiltrados = respuestas.filter(function(resultado) {
+    var cumpleNombre = resultado.Usuario && resultado.Usuario.toLowerCase().includes(nombre);
+    var cumpleCategoria = !categoria ;
+    console.log(cumpleCategoria);
+    var cumpleCampana = !campana || resultado.Campana.toLowerCase() === campana;
+
+    return cumpleNombre && cumpleCategoria && cumpleCampana;
+  });
+
+  mostrarResultados(resultadosFiltrados);
+}
+
+
+      
+      // Función para mostrar los resultados filtrados en la tabla
+      function mostrarResultados(resultadosFiltrados) {
+        var tablaResultados = $('#tabla-resultados tbody');
+        tablaResultados.empty();
+        
+        resultadosFiltrados.forEach(function(resultado) {
+          var fila = $('<tr>');
+          fila.append($('<td>').text(resultado.Usuario));
+          fila.append($('<td>').text(resultado.Pregunta));
+          fila.append($('<td>').text(resultado.Respuesta));
+          fila.append($('<td>').text(resultado.Categoria));
+          fila.append($('<td>').text(resultado.Campana));
+          tablaResultados.append(fila);
+        });
+      }
+      
+      // Asociar el evento de cambio a los campos de filtro
+      $('#nombre, #categoria, #campana').on('input', filtrarResultados);
+      
+      // Mostrar todos los resultados al cargar la página
+      mostrarResultados(respuestas);
+    });
+  </script>
+  
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Consulta de Usuarios</h1>
+  
+    <form class="mb-4">
+      <div class="row">
+        <div class="col-md-4">
+          <label for="nombre">Filtrar por Nombre:</label>
+          <input type="text" name="nombre" id="nombre" class="form-control">
+        </div>
+        <div class="col-md-4">
+          <label for="categoria">Filtrar por Categoría:</label>
+          <select name="categoria" id="categoria" class="form-control">
+            <option value="">Todas las Categorías</option>
+            <option value="productividad">Productividad</option>
+            <option value="habilidades de organizacion">Habilidades de Organización</option>
+            <option value="aprendizaje continuo">Aprendizaje Continuo</option>
+            <option value="relaciones interpersonales">Relaciones Interpersonales</option>
+            <option value="compromiso">Compromiso</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="campana">Filtrar por Campaña:</label>
+          <select name="campana" id="campana" class="form-control">
+            <option value="">Todas las Campañas</option>
+            <option value="calidad">Calidad</option>
+            <option value="marketing">Marketing</option>
+            <option value="administrativo">Administrativo</option>
+            <option value="sk">SK</option>
+            <option value="azteca isp">Azteca ISP</option>
+            <option value="etb avanzado">ETB Avanzado</option>
+            <option value="etb masivo">ETB Masivo</option>
+            <option value="ean permanencia">EAN Permanencia</option>
+            <option value="internexa">Internexa</option>
+            <option value="media commerce">Media Commerce</option>
+            <option value="eanx">EANX</option>
+            <option value="it">IT</option>
+            <option value="desarrollo">Desarrollo</option>
+            <option value="claro">Claro</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  
+    <table id="tabla-resultados" class="table table-striped">
+      <thead>
+        <tr>
+          <th>Usuario</th>
+          <th>Pregunta</th>
+          <th>Respuesta</th>
+          <th>Categoría</th>
+          <th>Campaña</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Aquí se agregarán las filas de resultados -->
+      </tbody>
+    </table>
+  </div>
+
+<%- include('../partials/footer') %>

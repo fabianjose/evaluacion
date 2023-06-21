@@ -582,3 +582,44 @@ info: 6/15/2023, 3:05:44 PM :  Visitante accedió al formulario de registro
 info: 6/15/2023, 3:05:57 PM :  El visitante se registró con éxito para el usuario: k@k.com
 info: 6/15/2023, 3:06:01 PM :  Visitante accedió al formulario de inicio de sesión
 info: 6/15/2023, 3:06:04 PM :  El visitante inició sesión con éxito con el usuario k@k.com
+info: 6/20/2023, 11:29:53 AM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 11:29:53 AM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 11:31:00 AM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 11:31:05 AM :  El visitante intentó iniciar sesión con el usuario espejofabian@gmail.com pero falló
+info: 6/20/2023, 11:31:06 AM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 11:31:38 AM :  El visitante inició sesión con éxito con el usuario fabian@remotepcsolutions.com
+info: 6/20/2023, 11:47:18 AM :  El usuario se ha desconectado fabian@remotepcsolutions.com
+info: 6/20/2023, 11:47:19 AM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 11:47:23 AM :  El visitante inició sesión con éxito con el usuario fabian@remotepcsolutions.com
+info: 6/20/2023, 11:47:43 AM :  El usuario se ha desconectado fabian@remotepcsolutions.com
+info: 6/20/2023, 11:50:53 AM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 11:54:17 AM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 11:54:17 AM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 12:00:18 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 12:00:18 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 12:00:54 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 12:00:54 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 12:01:42 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 12:01:42 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 12:02:05 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 12:02:05 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 12:03:01 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 12:03:01 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 12:03:08 PM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 12:03:14 PM :  El visitante inició sesión con éxito con el usuario fabian@remotepcsolutions.com
+info: 6/20/2023, 2:40:06 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 2:40:06 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 2:41:47 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 2:41:47 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 2:42:25 PM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 2:42:30 PM :  El visitante inició sesión con éxito con el usuario fabian@remotepcsolutions.com
+info: 6/20/2023, 2:43:41 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 2:43:41 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 3:18:39 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 3:18:39 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 3:19:01 PM :  Servidor escuchando en el puerto:  3000
+info: 6/20/2023, 3:19:01 PM :  ¡Conectado a la Base de Datos!
+info: 6/20/2023, 3:20:02 PM :  Visitante accedió al formulario de inicio de sesión
+info: 6/20/2023, 3:20:08 PM :  El visitante inició sesión con éxito con el usuario fabian@remotepcsolutions.com
+info: 6/21/2023, 8:26:39 AM :  Servidor escuchando en el puerto:  3000
+info: 6/21/2023, 8:26:39 AM :  ¡Conectado a la Base de Datos!
